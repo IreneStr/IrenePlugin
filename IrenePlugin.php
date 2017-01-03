@@ -9,9 +9,8 @@
  * License: GPL v3
  */
 
-    add_filter('the_content', 'changeIrenetoIRENE');
+add_filter('the_content', 'changeIrenetoIRENE');
 
-    function changeIrenetoIRENE($content)
-    {
-        return $content = str_replace("Irene", "IRENE", $content);
-    }
+function changeIrenetoIRENE($content) {
+    return $content = str_replace("Irene", "IRENE", $content);
+};
